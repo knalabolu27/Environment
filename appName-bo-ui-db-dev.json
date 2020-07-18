@@ -1,0 +1,30 @@
+{
+    "name": "dev",
+    "default_attributes":     {
+        "commonContent": {"xyz":         [
+            "1234",
+            "1234"
+        ]},
+        "bo": {"listen_ports":         [
+            "80",
+            "2345"
+        ]},
+        "UI": {"listen_ports":         [
+            "80",
+            "5456"
+        ]},
+        "db": {"listen_ports":         [
+            "80",
+            "3245"
+        ]}
+    },
+    "json_class": "Chef::Environment",
+    "description": "",
+    "cookbook_versions": {"couchdb": "= 11.0.0"},
+    "chef_type": "environment",
+    "neglectfiles":     {
+        "file1": "xyz.java",
+        "file2": "ascd.js",
+        "file3": "xyz.sql"
+    }
+}
